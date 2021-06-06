@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web oficial de la banda Dozing, aqui podras encontrar las ultimas novedades, fechas y merchandise">
+    <meta name="keywords" content="musica, metal progresivo, banda">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--css styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Dozing || Web oficial</title>
+</head>
+<body>
+<!--comienzo menu de navegacion-->
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="box-logoImg">
+                    <img src="img/logo.png" alt="logo" class="logoImg">
+                </div>
+            </div>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/musica.html">Musica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/merch.html">Merch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+    </header>
+    <!--fin menu de navegacion-->
+
+    <main>
+        <!-- comienzo de seccion "lanzamientos"-->
+        <section id="release" class="container">
+            <h2>Ultimo lanzamiento</h2>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-6">
+                    <iframe src="https://www.youtube.com/embed/Epu1MSas94w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-10 col-md-6">
+                    <h3>Titulo video</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus debitis, fugit quasi iusto iure illum veniam, qui adipisci impedit, quidem sit expedita quam tenetur architecto.</p>
+                </div>
+            </div>
+        </section>
+        <!-- fin de seccion "lanzamientos"-->
+
+        <!-- comienzo de seccion "shows"-->
+        <section id="shows" class="container">
+            <h2>Proximos Shows</h2>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-7 card text-center">
+                    <div class="card-body">
+                      <h4 class="card-title">Festival numero 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                      <a href="#" class="btn btn-dark">Mas Info.</a>
+                    </div>
+                </div>
+                <div class="col-10 col-md-7 card text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">Festival numero 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-dark">Mas Info.</a>
+                      </div>
+                </div>
+                <div class="col-10 col-md-7 card text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">Festival numero 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-dark">Mas Info.</a>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin de seccion "shows"-->
+    </main>
+
+    <!-- comienzo de seccion social y de contacto-->
+    <footer>
+        <h2>contacto</h2>
+        <div class="container">
+            <div class="formInput row justify-content-center">
+                <div class="col-5 col-md-3">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
+                </div>
+                <div class="col-5 col-md-3">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="formInput row justify-content-center">
+                <div class="col-10 col-md-6">
+                    <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="Correo electronico">
+                </div>
+            </div>
+            <div class="formInput row justify-content-center">
+                <div class="col-10 col-md-6 form-floating">
+                    <textarea class="form-control" placeholder="comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentarios</label>
+                </div>
+            </div>
+            <div class="formInput row justify-content-center">
+                <div class="col-auto">
+                    <input class="btn btn-dark" type="submit" value="Enviar">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="redes col">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-spotify"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <blockquote class="col text-center blockquote-footer">
+                Las estrellas <cite title="Source Title">nos iluminan</cite>
+            </blockquote>
+        </div>
+    </footer>
+    <!-- fin de seccion social y de contacto-->
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

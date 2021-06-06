@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 360px){
+
+/* estilos generales */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    margin: 3rem 0 3rem;
+    background-image: radial-gradient(circle, #7a0115 5%, rgba(0,0,0,0.8) 70%);
+    text-align: center;
+    text-shadow: 3px 4px black;
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+    color: #dfad88;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    margin: 3rem 0 3rem;
+    background-image: radial-gradient(circle, #7a0115 5%, rgba(0,0,0,0.8) 70%);
+    text-align: center;
+    text-shadow: 3px 4px black;
+    font-family: "Cinzel", serif;
+    font-size: 2.5rem;
+    color: #dfad88;
+    text-transform: uppercase;
+}
+
+h3{
+    text-shadow: 3px 4px #7a0115;
+    margin: 1rem 0;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 2.5rem;
+    color: #dbbca3;
+}
+
+h4{
+    font-family: "Cinzel", serif;
+    font-size: 1.5rem;
+}
+
+p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #AAADB3;
+}
+
+/* header */
+
+header{
+    background-color: black;
+}
+
+.box-logoImg{
+    max-width: 40rem;
+}
+
+.logoImg{
+    max-width: 100%;
+    animation-duration: 3s;
+    animation-name: fadein;
+}
+
+@keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+} 
+
+/* nav bar */
+
+.nav{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 0 0.5rem;
+    background-color: #7a0115;
+    border-radius: 1rem;
+}
+
+.nav-item:hover{
+    background-color: #dfad88;
+}
+
+.nav-link{
+    color: #dfad88;
+    font-family: "Cinzel", serif;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: #7a0115;
+}
+
+/* seccion lanzamientos */
+
+#release{
+    background-image: url(../img/blackbackground.jpg);
+}
+
+#release iframe{
+    width: 100%;
+    height: 18rem;
+}
+
+/* seccion shows */
+
+#shows{
+    background-image: url(../img/portada_ep.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.card{     
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #dbbca3;
+}
+
+.card-body h4{
+    color: #dfad88;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border: 1px solid #7a0115;
+}
+
+.btn{
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    background-color: #AAADB3;
+    color: #7a0115;
+}
+
+/* footer */
+
+
+/* formulario */
+.formInput{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.redes{
+    margin: 3rem;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* redes sociales */
+
+.redes i{
+    margin: 0 1rem;
+}
+
+.redes a{
+    color: #dfad88;
+}
+
+.blockquote-footer{
+    font-size: 1.5rem;
+}
+
+/* pagina nosotros */
+
+.band{
+    margin: 2rem 0;
+    align-items: center;
+}
+
+.boxImg{
+    max-width: 55rem;
+}
+
+.bandImg{
+    max-width: 100%;
+}
+
+.links{
+    font-size: 2.5rem;
+}
+
+.links i{
+    color: #dfad88;
+}
+
+/* pagina musica */
+
+.textoAlbum{
+    background-image: url(../img/portada_ep.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    max-width: 50rem;
+    line-height: 4rem;
+}
+
+.textoAlbum p{
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.box-albumImg{
+    max-width: 40rem;
+}
+
+.albumImg{
+    max-width: 100%;
+}
+
+/* pagina merch */
+
+.modal-header{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-body{
+    padding: 0px;
+    background-color: black;
+}
+
+.modal-footer{
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+}
+
+@media(min-width: 768px){
+
+#release .row{
+    align-items: center;
+}
+    
+#release iframe{
+    height: 20rem;
+}
+
+}
+
+@media(min-width: 1024px){
+
+#release .row{
+    align-items: center;
+}
+
+#release iframe{
+    height: 30rem;
+}
+
+}
